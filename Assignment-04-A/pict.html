@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICT Mobile Website</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<!-- Start of Home Page -->
+<div data-role="page" id="home">
+    <div data-role="header">
+        <h1>PICT</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <h2>Welcome to Pune Institute of Computer Technology</h2>
+        <p>We provide quality education in computer science and engineering.</p>
+        <a href="#about" class="ui-btn">About Us</a>
+        <a href="#courses" class="ui-btn">Courses</a>
+        <a href="#contact" class="ui-btn">Contact Us</a>
+    </div>
+
+    <div data-role="footer">
+        <h4>&copy; 2024 PICT</h4>
+    </div>
+</div>
+
+<!-- Start of About Page -->
+<div data-role="page" id="about">
+    <div data-role="header">
+        <a href="#home" class="ui-btn ui-icon-back ui-btn-icon-left">Back</a>
+        <h1>About Us</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <p>Pune Institute of Computer Technology (PICT) is an autonomous institute affiliated to the University of Pune. It offers undergraduate and postgraduate programs in computer science and engineering.</p>
+    </div>
+
+    <div data-role="footer">
+        <h4>&copy; 2024 PICT</h4>
+    </div>
+</div>
+
+<!-- Start of Courses Page -->
+<div data-role="page" id="courses">
+    <div data-role="header">
+        <a href="#home" class="ui-btn ui-icon-back ui-btn-icon-left">Back</a>
+        <h1>Courses</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <h2>Our Courses</h2>
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#">Bachelor of Engineering (Computer Engineering)</a></li>
+            <li><a href="#">Master of Engineering (Computer Science and Engineering)</a></li>
+            <li><a href="#">Ph.D. in Computer Science and Engineering</a></li>
+        </ul>
+    </div>
+
+    <div data-role="footer">
+        <h4>&copy; 2024 PICT</h4>
+    </div>
+</div>
+
+<!-- Start of Contact Page -->
+<div data-role="page" id="contact">
+    <div data-role="header">
+        <a href="#home" class="ui-btn ui-icon-back ui-btn-icon-left">Back</a>
+        <h1>Contact Us</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <h2>Contact Information</h2>
+        <p>Email: info@pict.edu</p>
+        <p>Phone: +91 123 456 7890</p>
+        <p>Address: Pune Institute of Computer Technology, Pune, India</p>
+    </div>
+
+    <div data-role="footer">
+        <h4>&copy; 2024 PICT</h4>
+    </div>
+</div>
+
+</body>
+</html>
